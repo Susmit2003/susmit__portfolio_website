@@ -50,29 +50,34 @@ const menuItems = [
     listText: 'Home',
     listPath: '/',
   },
-  {
-    listIcon: <AssignmentInd />,
-    listText: 'Resume',
-    listPath: '/resume',
-  },
-  {
-    listIcon: <Apps />,
-    listText: 'Portfolio',
-    listPath: '/portfolio',
-  },
-  {
-    listIcon: <BuildIcon />,
-    listText: 'Skills',
-    listPath: '/skills',
-  },
-  {
-    listIcon: <SchoolIcon />,
+  // {
+  //   listIcon: <AssignmentInd />,
+  //   listText: 'Resume',
+  //   listPath: '/resume',
+  // },
+  // {
+  //   listIcon: <Apps />,
+  //   listText: 'Portfolio',
+  //   listPath: '/portfolio',
+  // },
+   {
+     listIcon: <BuildIcon />,
+     listText: 'Skills',
+     listPath: '/skills',
+   },
+   {
+     listIcon: <SchoolIcon />,
     listText: 'Education',
-    listPath: '/education',
+     listPath: '/education',
+   },
+   {
+    listIcon: <SchoolIcon />,
+   listText: 'MY Patent',
+    listPath: '/startup',
   },
   {
     listIcon: <ContactMail />,
-    listText: 'Contacts',
+    listText: 'Contact',
     listPath: '/contacts',
   },
 ];
@@ -91,7 +96,7 @@ function Navbar() {
       className={classes.menuSlide}
       onClick={toggleSlide(slider, false)}
     >
-      <Avatar className={classes.myImage} src={myImage} alt="Sakil Khan" />
+      <Avatar className={classes.myImage} src={myImage} alt="Susmit Talukdar" />
       <Divider />
       <List>
         {menuItems.map((item, key) => (
@@ -125,7 +130,7 @@ function Navbar() {
                   textDecoration: 'none',
                 }}
               >
-                Sakil Khan
+                Sumit Talukdar
               </a>
             </Typography>
             <SliderOpen

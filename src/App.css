@@ -1,18 +1,18 @@
 html {
-  background: rgb(2, 0, 36);
+  background: rgb(205, 204, 220);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 26%,
-    rgba(79, 4, 27, 1) 100%,
-    rgba(2, 0, 36, 1) 100%
+    rgb(0, 0, 0) 26%,
+    rgb(48, 38, 4) 100%,
+    rgb(225, 218, 230) 100%
   );
 }
 body {
-  background: rgb(2, 0, 36);
+  background: rgb(174, 174, 217);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 26%,
-    rgba(79, 4, 27, 1) 100%,
-    rgba(2, 0, 36, 1) 100%
+    rgb(0, 0, 0) 26%,
+    rgb(32, 71, 78) 100%,
+    rgb(197, 197, 230) 100%
   );
 }

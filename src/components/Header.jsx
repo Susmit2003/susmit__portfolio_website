@@ -36,24 +36,22 @@ const Header = () => {
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
-        <Avatar className={classes.avater} src={avatar} alt="Sakil Khan" />
+        <Avatar className={classes.avater} src={avatar} alt="Susmit Talukdar" />
       </Grid>
-      <Typography className={classes.title} variant="h4">
-        <Typed strings={['Sakil Khan']} typeSpeed={100} />
+      <Typography className={classes.title} variant="h3">
+        <Typed strings={['Susmit Talukdar']} typeSpeed={70} />
       </Typography>
       <br />
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            'JavaScript Developer',
-            'MERN Stack Developer',
-            'Web Developer',
+            'Bachelor of Technology in Computer Science & Engineering'
           ]}
           typeSpeed={70}
           backSpeed={60}
           loop
         />
-        <HomeContract />
+       
       </Typography>
     </Box>
   );
